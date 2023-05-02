@@ -7,9 +7,6 @@
 
 html, body {
   margin: 0;
-  padding-left: 0;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 body {
@@ -28,6 +25,8 @@ h1 {
   text-align: center;
   text-align: top;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -43,7 +42,9 @@ h3 {
   font-size: 4.2em;
   text-align: center;
   line-height: 1em;
+  margin: 0;
 }
+
 h4 {
   font-size: 1.5em;
   letter-spacing: 0.4px;
@@ -110,10 +111,16 @@ h5 {
 .service-box img {
   width: 125px;
 }
-
-#team img{
+/*
+Team Section
+*/
+#team img {
   width: 250px;
   height: 180px;
+}
+
+#team p {
+  text-align: center;
 }
 
 #team .section-text {
